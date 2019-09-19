@@ -2,3 +2,18 @@ hello github
 
 
 http://blog.csdn.net/oliver_web/article/details/53889664
+
+1、切换远程仓库地址：
+方式一：修改远程仓库地址
+
+【git remote set-url origin URL】 更换远程仓库地址，URL为新地址。
+
+方式二：先删除远程仓库地址，然后再添加
+
+【git remote rm origin】 删除现有远程仓库 
+【git remote add origin url】添加新远程仓库
+
+2、【git remote -v 】查看远程仓库的地址
+ ———————————————— 
+版权声明：本文为CSDN博主「涵一」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/yihanzhi/article/details/78801027
